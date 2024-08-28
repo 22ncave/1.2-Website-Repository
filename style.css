@@ -1,0 +1,25 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+.hero{
+    height: 400px;
+    border: 1px solid black;
+    border: 10px solid rgb(48, 48, 46);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Horror\ Header.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title{
+    font-size: 110px;
+    color: rgb(161, 6, 6);
+}
+
+header {
+    width:100%;
+}
