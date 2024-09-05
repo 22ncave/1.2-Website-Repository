@@ -3,6 +3,9 @@
     padding:0px;
 }
 
+body{
+    background-color: rgb(79, 71, 71);
+}
 
 .hero{
     height: 400px;
@@ -22,4 +25,50 @@
 
 header {
     width:100%;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border: 1px rgb(40, 32, 32);
+    list-style: none;
+}
+
+.nav-link{
+    color: tomato;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: rgb(245, 241, 240);
+    background-color: tomato;
+    transition: .4s;
+}
+
+.welcome-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.welcome-card{
+    width: 90%;
+    background-color: rgb(43, 41, 41);
+}
+.welcome-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+.welcome-text{
+    color: red;
+    margin-left: 400px;
 }
