@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/*Css for text font */
 .creepster-regular {
     font-family: "Creepster", system-ui;
     font-weight: 400;
@@ -12,7 +12,7 @@
 body {
     background-color: rgb(19, 18, 18);
 }
-
+/*Css for the page headers */
 .hero {
     height: 400px;
     border: 10px solid rgb(48, 48, 46);
@@ -70,7 +70,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-
+/*Css for the Nav bar*/
 .navbar {
     display: flex;
     background-color: #000000;
@@ -94,7 +94,7 @@ header {
     background-color: tomato;
     transition: .4s;
 }
-
+/* Welcome card css*/
 .welcome-container {
     display: flex;
     width: 100%;
@@ -121,7 +121,7 @@ header {
     margin-left: 400px;
     margin-top: 20px;
 }
-
+/* Basic card CSS*/
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -144,48 +144,49 @@ header {
     height: 60%;
     object-fit: contain;
 }
-
+/* Css for the movie spotlight on main page*/
 .movie-spotlight {
     text-align: center;
     color: white;
 }
-.villain-cards{
+/*Css for the villain cards in the villain pages */
+.villain-cards {
     text-align: center;
     color: white;
 }
 
-.villain-img{
-    width:100%;
-    height:350px;
+.villain-img {
+    width: 100%;
+    height: 350px;
 }
-
-.divider{
+/*Css for bar dividers */
+.divider {
     height: 40px;
     width: 100%;
     background-color: black;
 }
- 
-.review-container{
+/*Css for the movie review Cards */
+.review-container {
     display: flex;
     justify-content: space-around;
     width: 90%;
     padding: 60px;
 }
 
-.review-card{
+.review-card {
     width: 80%;
     background-color: #000000;
     padding: 20px;
     color: white;
 }
 
-.review-text{
+.review-text {
     text-align: right;
     margin-left: 200px;
-    
+
 }
 
-.review-img{
+.review-img {
     object-fit: contain;
     margin-top: -150px;
     height: 200px;
