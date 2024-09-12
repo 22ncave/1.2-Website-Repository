@@ -1,19 +1,19 @@
 * {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .creepster-regular {
     font-family: "Creepster", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  
-body{
-   background-color:rgb(19, 18, 18);
 }
 
-.hero{
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+.hero {
     height: 400px;
     border: 10px solid rgb(48, 48, 46);
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(the-shape.jpg) center center no-repeat;
@@ -23,18 +23,19 @@ body{
     justify-content: center;
     align-items: center;
 }
-.hero-title{
+
+.hero-title {
     font-size: 110px;
     color: white;
-    text-shadow: -3px -3px 0 rgb(157, 4, 4), 3px -3px 0 rgb(157, 4, 4), -3px 3px 0 rgb(157, 4, 4), 3px 3px 0 rgb(157, 4, 4) ;
+    text-shadow: -3px -3px 0 rgb(157, 4, 4), 3px -3px 0 rgb(157, 4, 4), -3px 3px 0 rgb(157, 4, 4), 3px 3px 0 rgb(157, 4, 4);
 }
 
 header {
-    width:100%;
+    width: 100%;
     max-width: 100%;
 }
 
-.review-hero{
+.review-hero {
     height: 400px;
     border: 1px solid black;
     border: 10px solid rgb(48, 48, 46);
@@ -46,7 +47,7 @@ header {
     align-items: center;
 }
 
-.actors-hero{
+.actors-hero {
     height: 400px;
     border: 1px solid black;
     border: 10px solid rgb(48, 48, 46);
@@ -58,7 +59,7 @@ header {
     align-items: center;
 }
 
-.villains-hero{
+.villains-hero {
     height: 400px;
     border: 1px solid black;
     border: 10px solid rgb(48, 48, 46);
@@ -70,7 +71,7 @@ header {
     align-items: center;
 }
 
-.navbar{
+.navbar {
     display: flex;
     background-color: #000000;
     justify-content: center;
@@ -78,7 +79,7 @@ header {
     list-style: none;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -88,56 +89,104 @@ header {
     font-weight: 700;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: rgb(245, 241, 240);
     background-color: tomato;
     transition: .4s;
 }
 
-.welcome-container{
+.welcome-container {
     display: flex;
     width: 100%;
     justify-content: center;
     padding: 30px 0;
 }
 
-.welcome-card{
+.welcome-card {
     width: 90%;
     background-color: #000000;
     padding: 20px;
 }
-.welcome-img{
+
+.welcome-img {
     width: 200px;
     height: 200px;
     margin-left: 100px;
-    margin-top: -80px;
+    margin-top: -120px;
 }
-.welcome-text{
+
+.welcome-text {
     color: white;
     font-size: large;
     margin-left: 400px;
     margin-top: 20px;
 }
-.card-container{
-display: flex;
-justify-content: space-around;
-width: 90%;
-padding: 60px;
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 60px;
 }
-.card{
-width: 25%;
-background-color:#000000;
-padding: 20px;
+
+.card {
+    width: 25%;
+    background-color: #000000;
+    padding: 20px;
 }
-.card-text{
-text-align: center;
+
+.card-text {
+    text-align: center;
 }
-.card-img{
+
+.card-img {
     width: 100%;
     height: 60%;
     object-fit: contain;
 }
-.movie-spotlight{
+
+.movie-spotlight {
     text-align: center;
     color: white;
+}
+.villain-cards{
+    text-align: center;
+    color: white;
+}
+
+.villain-img{
+    width:100%;
+    height:350px;
+}
+
+.divider{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+ 
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 60px;
+}
+
+.review-card{
+    width: 80%;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+.review-text{
+    text-align: right;
+    margin-left: 200px;
+    
+}
+
+.review-img{
+    object-fit: contain;
+    margin-top: -150px;
+    height: 200px;
 }
